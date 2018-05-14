@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Image Gallery</title>
+		<script type="text/javascript" src="ImgGallery.js"></script>
+		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="custom.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 jumbotron text-center">
+					<div class="col-md-12">
+						<h1>Image Gallery - (JavaScript + Bootstrap) - Prekas Ilias</h1>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<button onClick="luckyShow()" class="btn btn-primary btn-sm">Start/Stop Random</button>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<button onClick="time()" class="btn btn-primary btn-sm">Start/Stop Show</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 col-md-6">
+							<button onClick="previous()" class="btn btn-outline-success btn-sm">Previous</button>
+						</div>
+						<div class="col-sm-12 col-md-6">
+							<button onClick="next()" class="btn btn-outline-success btn-sm">Next</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div id="screen" class="text-center">
+					<img class="img-thumbnail" id="icon" src="PICS/1.jpg" />
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="jumbotron">
+					<div class="col-md-2 col-sm-4 col-4 float-left">
+						<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/1.jpg" onClick="show(this.src)"/>
+					</div>
+					<div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/2.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/3.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/4.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/5.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/6.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div class="col-md-2 col-sm-4 col-4  float-left">
+	                	<img class="img-thumbnail rounded thumbs" alt="thumb" src="PICS/7.jpg" onClick="show(this.src)"/>
+	                </div>
+	                <div>
+	            </div>
+			</div>
+		</div>
+	</body>
+</html>

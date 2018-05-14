@@ -1,0 +1,21 @@
+button{
+	margin: 2%;
+}
+
+.jumbotron{
+	margin-top: 1%;
+}
+
+#screen{
+	margin:0 auto;
+}
+
+.thumbs{
+	opacity:0.5;
+	margin-bottom:2%;
+}
+
+.thumbs:hover{
+	opacity:1;
+	cursor:pointer;	
+}
